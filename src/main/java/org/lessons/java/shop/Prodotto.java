@@ -57,4 +57,9 @@ public class Prodotto {
 		return productCode;
 	}
 
+	public String getProductInfo() {
+		String productInfo = productName + "-" + productCode;
+		return productInfo;
+	}
+
 }
